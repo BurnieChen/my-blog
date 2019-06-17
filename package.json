@@ -2,7 +2,7 @@
   "name": "my-blog",
   "version": "0.1.0",
   "private": true,
-  "homepages": "https://burniechen.github.io/my-blog/",
+  "homepage": "https://burniechen.github.io/my-blog/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
