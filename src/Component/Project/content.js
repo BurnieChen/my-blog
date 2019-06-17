@@ -9,19 +9,44 @@ const projects = [
         ],
         imgs : [
             {
-                src : 'http://placekitten.com/g/400/200',
-                alt : '400*480'
+                src : '/img/signature/signature-1.png',
+                alt : 'signature-1'
             },
 
             {
-                src : 'http://placekitten.com/g/400/200',
-                alt : '200*200'
+                src : '/img/signature/signature-2.png',
+                alt : 'signature-2'
             },
 
             {
-                src : 'http://placekitten.com/g/400/200',
-                alt : '200*200'
-            }
+                src : '/img/signature/signature-3.png',
+                alt : 'signature-3'
+            },
+
+            {
+                src : '/img/signature/signature-4.png',
+                alt : 'signature-4'
+            },
+
+            {
+                src : '/img/signature/signature-5.png',
+                alt : 'signature-5'
+            },
+
+            {
+                src : '/img/signature/signature-6.png',
+                alt : 'signature-6'
+            },
+
+            {
+                src : '/img/signature/signature-7.png',
+                alt : 'signature-7'
+            },
+
+            {
+                src : '/img/signature/signature-8.png',
+                alt : 'signature-8'
+            },
         ]
     },
     

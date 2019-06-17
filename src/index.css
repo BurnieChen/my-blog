@@ -99,12 +99,15 @@ article ul, ol, li{
 .journey-time{
 	font-size: 14px;
 	font-weight: 500;
-	color: rgb(100, 100, 100);
+	color: rgb(80, 80, 80);
 	margin: 5px 0;
+	letter-spacing: 1px;
 }
 
 .journey-location{
 	font-size: 14px;
+	letter-spacing: 0.6px;
+	font-weight: 400;
 	margin: 5px 0;
 }
 
@@ -113,18 +116,19 @@ article ul, ol, li{
 	font-weight: 500;
 	color: rgb(80, 80, 80);
 	font-style: italic;
-	margin-left: 6px;
+	letter-spacing: 0.6px;
 }
 
 .journey-detail{
 	font-size: 14px;
 	font-weight: 400;
-	color: rgb(100, 100, 100);
 	font-style: normal;
 	margin: 10px 0;
 	list-style-type: decimal;
 	margin-left: 20px;
 	padding-left: 12px;
+	letter-spacing: 0.6px;
+	color: rgb(0, 0, 0);
 }
 
 .contact-box {
@@ -159,7 +163,7 @@ article ul, ol, li{
 }
 
 .project-box{
-	padding: 5% 0;
+	padding-bottom: 10%;
 }
 
 .project-title {
@@ -188,7 +192,7 @@ article ul, ol, li{
 
 .slick-slide img {
 	margin: 0 auto;
-	width: 100%;
+	width: 250px;
 }
 
 @media screen and (min-width: 767px){
@@ -196,16 +200,16 @@ article ul, ol, li{
 		display: flex;
 		flex-direction: unset;
 		justify-content: center;
-		padding: 2% 15%;
+		padding: 2% 12.5%;
 	}
 	.left-part{
 		padding: 2% 2%;
-		width: 27.5%;
+		width: 33.3%;
 	}
 
 	.right-part{
 		padding: 0 3%;
-		width: 52.5%;
+		width: 66.6%;
 	}
 
 	.slick-slider{
@@ -214,6 +218,6 @@ article ul, ol, li{
 
 	.slick-slide img {
 		margin: 0 auto;
-		max-width: 66.6%;
+		width: 66.6%;
 	}
 }
