@@ -5,7 +5,7 @@ import journey from './About/journey'
 const PreFcae = () => (
     <div>
         <p>{preface.greet}</p>
-        <img className='head-shot-lg' src={preface.img} alt={preface.alt} />
+        <img className='head-shot-lg' src={process.env.PUBLIC_URL + preface.img} alt={preface.alt} />
         <p>{preface.talk}</p>
     </div>
 )
