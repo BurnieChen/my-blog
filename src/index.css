@@ -141,6 +141,11 @@ article ul, ol, li{
 	font-size: 16px;
 }
 
+.contact-box p a{
+	text-decoration: none;
+	color: rgb(3, 168, 240);
+}
+
 .contact-box span {
 	font-size: 18px;
 	font-weight: 500;
@@ -153,8 +158,37 @@ article ul, ol, li{
 	padding: 5px;
 }
 
+.project-box{
+	padding: 5% 0;
+}
+
+.project-title {
+	font-size: 16px;
+	letter-spacing: 0.6px;
+	font-weight: 500;
+}
+
+.project-box p {
+	font-style: italic;
+	color: rgb(80, 80, 80);
+}
+
+.project-box ol {
+	margin-bottom: 5%;
+}
+
+.project-box li {
+	list-style-type: decimal;
+	font-size: 14px;
+	letter-spacing: 0.6px;
+	font-weight: 400;
+	margin: 4px 0;
+	margin-left: 20px;
+}
+
 .slick-slide img {
-    margin: 0 auto;
+	margin: 0 auto;
+	width: 100%;
 }
 
 @media screen and (min-width: 767px){
@@ -171,9 +205,15 @@ article ul, ol, li{
 
 	.right-part{
 		padding: 0 3%;
+		width: 52.5%;
 	}
 
 	.slick-slider{
 		width: 33.3vw;
+	}
+
+	.slick-slide img {
+		margin: 0 auto;
+		max-width: 66.6%;
 	}
 }

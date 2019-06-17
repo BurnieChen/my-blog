@@ -18,7 +18,7 @@ const ContentArea  = () => {
             else return(
                 <p key={timestamp}>
                     <span>{address.type}：</span>
-                    {address.link}
+                    <a href={'mailto:' + address.link}>{address.link}</a>
                 </p>
                 
             )

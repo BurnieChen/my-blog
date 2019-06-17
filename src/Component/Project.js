@@ -21,9 +21,7 @@ class Project extends React.Component
     render() {
         return (
             <div className='right-part'>
-                <div>
-                    <h1>My Project</h1>
-                </div>
+                <h1>My Project</h1>
 
                 <AllProject />
             </div>

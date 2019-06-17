@@ -5,7 +5,7 @@ const content = [
     },
     {
         type : 'Home',
-        link : '/',
+        link : 'https://burniechen.github.io/my-blog/',
         icon : '/img/home.svg'
     },
     {

@@ -26,7 +26,7 @@ const mapImgs = (project) => {
     return project.imgs.map(
         (img) => (
             <div key={timestamp}>
-                <img src={img.src} alt={img.alt} />
+                <img src={process.env.PUBLIC_URL + img.src} alt={img.alt} />
             </div>
         )
     )
@@ -43,9 +43,9 @@ export default (Slider, settings, projects) => {
                     let timestamp = Math.floor(dateTime / (Math.floor(Math.random()*1000) + 2))
 
                     return (
-                        <div key={timestamp}>
+                        <div className='project-box' key={timestamp}>
                             <div>
-                                <h3>{project.title}</h3>
+                                <div className='project-title'>{project.title}</div>
                                 <p>{project.location}</p>
                                 {functs}
                             </div>
