@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ad59179.chunk.css",
-    "main.js": "/static/js/main.3ce0e685.chunk.js",
-    "main.js.map": "/static/js/main.3ce0e685.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.cdaf15d1.chunk.css": "/static/css/2.cdaf15d1.chunk.css",
-    "static/js/2.0eb814ff.chunk.js": "/static/js/2.0eb814ff.chunk.js",
-    "static/js/2.0eb814ff.chunk.js.map": "/static/js/2.0eb814ff.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2221ee8c551ff44f1f80190367d42e98.js": "/precache-manifest.2221ee8c551ff44f1f80190367d42e98.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.cdaf15d1.chunk.css.map": "/static/css/2.cdaf15d1.chunk.css.map",
-    "static/css/main.8ad59179.chunk.css.map": "/static/css/main.8ad59179.chunk.css.map",
-    "static/media/index.css": "/static/media/slick.f97e3bbf.svg"
+    "main.css": "/my-blog/static/css/main.8ad59179.chunk.css",
+    "main.js": "/my-blog/static/js/main.ac174293.chunk.js",
+    "main.js.map": "/my-blog/static/js/main.ac174293.chunk.js.map",
+    "runtime~main.js": "/my-blog/static/js/runtime~main.65cc20a6.js",
+    "runtime~main.js.map": "/my-blog/static/js/runtime~main.65cc20a6.js.map",
+    "static/css/2.3a89e7ae.chunk.css": "/my-blog/static/css/2.3a89e7ae.chunk.css",
+    "static/js/2.0eb814ff.chunk.js": "/my-blog/static/js/2.0eb814ff.chunk.js",
+    "static/js/2.0eb814ff.chunk.js.map": "/my-blog/static/js/2.0eb814ff.chunk.js.map",
+    "index.html": "/my-blog/index.html",
+    "precache-manifest.da0c9bbf3a93536950a9ecd10d58d032.js": "/my-blog/precache-manifest.da0c9bbf3a93536950a9ecd10d58d032.js",
+    "service-worker.js": "/my-blog/service-worker.js",
+    "static/css/2.3a89e7ae.chunk.css.map": "/my-blog/static/css/2.3a89e7ae.chunk.css.map",
+    "static/css/main.8ad59179.chunk.css.map": "/my-blog/static/css/main.8ad59179.chunk.css.map",
+    "static/media/index.css": "/my-blog/static/media/slick.f97e3bbf.svg"
   }
 }
