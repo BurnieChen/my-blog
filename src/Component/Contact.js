@@ -7,16 +7,26 @@ const ContentArea  = () => {
             let dateTime = new Date().getTime()
             let timestamp = Math.floor(dateTime / (Math.floor(Math.random()*1000) + 2))
 
-            return (
+            if (address.icon) return (
                 <li key={timestamp}>
-                    {address.type}:{address.link}
+                    <a href={address.link}>
+                        <img className='contact-icon' src={process.env.PUBLIC_URL + address.icon} alt={address.type} />
+                    </a>
                 </li>
+                
+            )
+            else return(
+                <p key={timestamp}>
+                    <span>{address.type}：</span>
+                    {address.link}
+                </p>
+                
             )
         }
     )
 
     return (
-        <ul>
+        <ul className='contact-box'>
             {mapContent}
         </ul>
     )
